@@ -2,6 +2,7 @@
 
 This is a library for shooting Gif videos in Unity.  
 This library modifies [Moments](https://github.com/Chman/Moments) to be compatible with the latest version of Unity and adds an asynchronous API.
+（The only changes are the removal of `MinDrawer.cs` and the Demo scene from the original.）
 
 
 ![Gif](Assets/TORISOUP/UnityGifRecorder/Demo/output/TestGifRecord.gif)
