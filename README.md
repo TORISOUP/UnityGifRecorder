@@ -4,7 +4,7 @@ This is a library for shooting Gif videos in Unity.
 This library modifies [Moments](https://github.com/Chman/Moments) to be compatible with the latest version of Unity and adds an asynchronous API.
 
 
-![Gif](Assets\TORISOUP\UnityGifRecorder\Demo\output\TestGifRecord.gif)
+![Gif](Assets/TORISOUP/UnityGifRecorder/Demo/output/TestGifRecord.gif)
 
 
 Depends on  [Moments](https://github.com/Chman/Moments) and [UniTask](https://github.com/Cysharp/UniTask).
@@ -14,6 +14,7 @@ Depends on  [Moments](https://github.com/Chman/Moments) and [UniTask](https://gi
 ```cs
 public class RecordSample : MonoBehaviour
 {
+    // Attach 'UnityGifRecorder' to the camera object
     [SerializeField] private UnityGifRecorder _recorder;
 
     private async UniTaskVoid Start()
